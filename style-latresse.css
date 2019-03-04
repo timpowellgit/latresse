@@ -199,6 +199,7 @@ h6 {
   .profile-3 p {
     position: absolute;
     bottom:10%;
+    padding: inherit;
     opacity: 0;
     z-index: 1;
     transition: 0.3s; }
