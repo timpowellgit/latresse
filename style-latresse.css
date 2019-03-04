@@ -197,9 +197,9 @@ h6 {
   .profile-1 p,
   .profile-2 p,
   .profile-3 p {
-    position: relative;
-    margin-top: -530px;
-    color: white;
+    position: absolute;
+    bottom:10%;
+    opacity: 0;
     z-index: 1;
     transition: 0.3s; }
   /* line 212, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -212,7 +212,7 @@ h6 {
   .profile-2:hover p,
   .profile-3:hover p {
     z-index: 10;
-    color: black; }
+    opacity:1; }
 
 /* line 222, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-about {
@@ -518,6 +518,11 @@ h6 {
     height: 600px !important;
     width: 100%;
     border-bottom: 5px solid black; }
+    .profile-1 p,
+    .profile-2 p,
+    .profile-3 p {
+      bottom:5%;
+ }
   /* line 543, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-profile {
     z-index: 1 !important;
