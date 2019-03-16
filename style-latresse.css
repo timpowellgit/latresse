@@ -202,7 +202,9 @@ h6 {
     padding: inherit;
     opacity: 0;
     z-index: 1;
-    transition: 0.3s; }
+    transition: 0.3s; 
+    max-width:500px;
+}
   /* line 212, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .profile-1:hover img,
   .profile-2:hover img,
@@ -381,7 +383,8 @@ h6 {
 
 /* line 390, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-news-text {
-  margin-top: 120px; }
+  margin-top: 120px;
+  max-width: 800px; }
   /* line 392, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-news-text h1 {
     margin-bottom: 20px; }
@@ -542,7 +545,8 @@ h6 {
   .lt-profile3 {
     color: black !important;
     z-index: 15;
-    font-size: 0.95em; }
+    font-size: 0.95em;
+     }
   /* line 555, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
     padding: 50px 20px; } }
@@ -575,5 +579,9 @@ h6 {
   .lt-contact {
     margin-top: 400px;
     height: 300px; } }
+
+  .news-item {
+    margin-bottom: 20px;
+  }
 
 /*# sourceMappingURL=style-latresse.css.map */
