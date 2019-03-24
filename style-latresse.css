@@ -60,7 +60,9 @@ h6 {
 
 /* line 71, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .para {
-  margin-top: 50px; }
+  margin-top: 50px; 
+  max-width: 800px;
+  }
 
 /* line 75, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .title-center {
@@ -151,7 +153,7 @@ h6 {
 /* line 162, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .video-title {
   text-align: center;
-  padding: 80px 0 20px;
+  padding: 70px 0 50px;
   font-size: 2.5em; }
 
 /* line 168, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -358,7 +360,8 @@ h6 {
   /* line 361, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
     padding: 40px 57px 150px 57px;
-    text-align: right; }
+    text-align: right; 
+    max-width: 900px;}
     /* line 364, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
     .lt-work .work-sum h1 {
       font-size: 4em; }
@@ -581,7 +584,7 @@ h6 {
     height: 300px; } }
 
   .news-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
 /*# sourceMappingURL=style-latresse.css.map */
