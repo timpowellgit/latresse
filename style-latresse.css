@@ -102,14 +102,20 @@ h6 {
 .bb-vid-thumbnail {
   background-image: url(img/bb-vid.png); }
 
+.sokoloff-vid-thumbnail {
+  background-image: url(img/sokoloff-vid.jpg)
+}
+
+
 /* line 113, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-.bb-vid-thumbnail, .volumeii-vid-thumbnail, .walkabout-vid-thumbnail {
+.bb-vid-thumbnail, .volumeii-vid-thumbnail, .walkabout-vid-thumbnail,.sokoloff-vid-thumbnail {
   height: 260px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   transition: 0.5s; }
   /* line 118, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .bb-vid-thumbnail span, .volumeii-vid-thumbnail span, .walkabout-vid-thumbnail span {
+  .bb-vid-thumbnail span, .volumeii-vid-thumbnail span, .walkabout-vid-thumbnail span, .sokoloff-vid-thumbnail span {
     line-height: 260px;
     vertical-align: middle;
     text-align: center;
@@ -118,11 +124,11 @@ h6 {
     opacity: 0;
     transition: 0.5s; }
   /* line 127, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .bb-vid-thumbnail:hover, .volumeii-vid-thumbnail:hover, .walkabout-vid-thumbnail:hover {
+  .bb-vid-thumbnail:hover, .volumeii-vid-thumbnail:hover, .walkabout-vid-thumbnail:hover, .sokoloff-vid-thumbnail:hover {
     background-image: none;
     background-color: black; }
     /* line 130, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-    .bb-vid-thumbnail:hover span, .volumeii-vid-thumbnail:hover span, .walkabout-vid-thumbnail:hover span {
+    .bb-vid-thumbnail:hover span, .volumeii-vid-thumbnail:hover span, .walkabout-vid-thumbnail:hover span , .sokoloff-vid-thumbnail:hover span{
       color: white;
       opacity: 1; }
 
