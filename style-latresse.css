@@ -314,7 +314,7 @@ h6 {
 /* line 306, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-artists {
   overflow-y: hidden;
-  height: 100vh;
+  height: 0vh;
   min-height: 820px; }
 
 /* line 312, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
