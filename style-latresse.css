@@ -461,8 +461,8 @@ h6 {
 
 @media screen and (max-width: 1200px) {
   /* line 459, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  p {
-    font-size: 1.1em; }
+/*  p {
+    font-size: 1.1em; }*/
   /* line 462, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-div-full {
     height: auto; }
@@ -471,8 +471,8 @@ h6 {
     margin-top: 50px;
     display: block; }
   /* line 469, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .lt-about-text {
-    margin-bottom: 200px; }
+/*  .lt-about-text {
+    margin-bottom: 200px; }*/
   /* line 472, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-works {
     height: 750px; } }
@@ -485,8 +485,8 @@ h6 {
   h2 {
     font-size: 4em; }
   /* line 484, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .title-center {
-    margin-top: -100px; }
+/*  .title-center {
+    margin-top: -100px; }*/
   /* line 487, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-lander-content {
     margin-top: 30%; }
@@ -497,8 +497,8 @@ h6 {
     top: 20px;
     right: 40px; }
   /* line 496, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .lt-about-img {
-    margin: 80px 0; }
+/*  .lt-about-img {
+    margin: 80px 0; }*/
   /* line 499, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-works {
     padding: 60px 0;
@@ -514,7 +514,11 @@ h6 {
   /* line 511, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .subtitle {
     font-size: 1em !important;
-    margin-top: 20px; }
+    margin-top: 20px; 
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    line-height: 1.3em;}
   /* line 515, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .contact-links {
     margin: 0; }
@@ -522,6 +526,10 @@ h6 {
   .lt-upcoming {
     margin: 30px 3px; }
   /* line 521, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
+  .lt-contact {
+    margin-top: 400px;
+    height: 300px; } }
+
   .lt-contact-text {
     margin-top: 80px;
     margin-bottom: 50px; }
@@ -539,7 +547,7 @@ h6 {
   .profile-2,
   .profile-3 {
     height: 600px !important;
-    width: 100%;
+    /*width: 100%;*/
     border-bottom: 5px solid black; }
     .profile-1 p,
     .profile-2 p,
