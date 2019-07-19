@@ -548,26 +548,27 @@ h6 {
   .profile-3 {
     height: 600px !important;
     /*width: 100%;*/
-    border-bottom: 5px solid black; }
+}
     .profile-1 p,
     .profile-2 p,
     .profile-3 p {
       bottom:5%;
-      opacity: 1;
+      opacity: 1
+      color: black !important;
+      z-index: 15;
+      font-size: 0.95em;;
  }
   /* line 543, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .lt-profile {
+  .profile img {
     z-index: 1 !important;
     opacity: 0.2 !important;
     height: 500px !important; }
   /* line 550, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-  .lt-profile1,
+/*  .lt-profile1,
   .lt-profile2,
   .lt-profile3 {
-    color: black !important;
-    z-index: 15;
-    font-size: 0.95em;
-     }
+
+     }*/
   /* line 555, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
     padding: 50px 20px; } }
@@ -605,4 +606,3 @@ h6 {
     margin-bottom: 30px;
   }
 
-/*# sourceMappingURL=style-latresse.css.map */
