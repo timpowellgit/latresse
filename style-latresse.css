@@ -555,7 +555,7 @@ h6 {
     .profile-2 p,
     .profile-3 p {
       bottom:5%;
-      opacity: 1
+      opacity: 1;
       color: black !important;
       z-index: 15;
       font-size: 0.95em;
