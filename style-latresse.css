@@ -318,9 +318,8 @@ h6 {
 /* line 306, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-artists {
   overflow-y: hidden;
-  height: 0vh;
-  min-height: 820px; }
-
+  min-height: 820px; 
+}
 /* line 312, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-profile {
   height: 600px; }
@@ -475,7 +474,7 @@ h6 {
     margin-bottom: 200px; }*/
   /* line 472, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-works {
-    height: 750px; } }
+    height: 750px; } 
 
 @media screen and (max-width: 1000px) {
   /* line 478, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -528,7 +527,7 @@ h6 {
   /* line 521, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-contact {
     margin-top: 400px;
-    height: 300px; } }
+    height: 300px; } 
 
   .lt-contact-text {
     margin-top: 80px;
@@ -542,6 +541,9 @@ h6 {
   /* line 533, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-artists {
     overflow-y: visible; }
+  .title-center {
+    margin-top: 200px;
+    }
   /* line 538, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .profile-1,
   .profile-2,
@@ -556,7 +558,7 @@ h6 {
       opacity: 1
       color: black !important;
       z-index: 15;
-      font-size: 0.95em;;
+      font-size: 0.95em;
  }
   /* line 543, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .profile img {
@@ -571,7 +573,7 @@ h6 {
      }*/
   /* line 555, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
-    padding: 50px 20px; } }
+    padding: 50px 20px; } 
 
 @media screen and (max-width: 700px) {
   /* line 561, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -600,7 +602,7 @@ h6 {
   /* line 586, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-contact {
     margin-top: 400px;
-    height: 300px; } }
+    height: 300px; } 
 
   .news-item {
     margin-bottom: 30px;
