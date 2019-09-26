@@ -605,7 +605,8 @@ h6 {
   .lt-contact {
     margin-top: 200px;
     height: 300px; }
-
   .news-item {
     margin-bottom: 30px;
   }
+  .lt-works-title .works-title-h1 {
+      font-size: 5em!important; }
