@@ -60,7 +60,7 @@ h6 {
 
 /* line 71, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .para {
-  margin-top: 50px; 
+  margin-top: 50px;
   max-width: 800px;
   }
 
@@ -92,21 +92,21 @@ h6 {
 
 /* line 101, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .walkabout-vid-thumbnail {
-  background-image: url(img/walkabout-vid.png); }
+  background-image: url(img/walkabout-vid2.jpg); }
 
 /* line 105, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .volumeii-vid-thumbnail {
-  background-image: url(img/volumeii-vid.png); }
+  background-image: url(img/volumeii-vid2.jpg); }
 
 /* line 109, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .bb-vid-thumbnail {
-  background-image: url(img/bb-vid.png); }
+  background-image: url(img/bb-vid2.jpg); }
 
 .sokoloff-vid-thumbnail {
-  background-image: url(img/sokoloff-vid.jpg)
+  background-image: url(img/sokoloff-vid2.jpg)
 }
 .encrenoire-vid-thumbnail {
-  background-image: url(img/encrenoire-vid.png)
+  background-image: url(img/encrenoire-vid2.jpg)
 }
 
 
@@ -131,7 +131,7 @@ h6 {
     background-image: none;
     background-color: black; }
     /* line 130, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-    .bb-vid-thumbnail:hover span, .volumeii-vid-thumbnail:hover span, .walkabout-vid-thumbnail:hover span , 
+    .bb-vid-thumbnail:hover span, .volumeii-vid-thumbnail:hover span, .walkabout-vid-thumbnail:hover span ,
     .sokoloff-vid-thumbnail:hover span,.encrenoire-vid-thumbnail:hover span{
       color: white;
       opacity: 1; }
@@ -214,7 +214,7 @@ h6 {
     padding: inherit;
     opacity: 0;
     z-index: 1;
-    transition: 0.3s; 
+    transition: 0.3s;
     max-width:500px;
 }
   /* line 212, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -236,13 +236,13 @@ h6 {
 /* line 226, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-about-img {
   height: 100vh;
-  background-image: url(img/about-lt.jpg);
+  background-image: url(img/about-lt2.jpg);
   background-position: center;
   background-size: cover; }
 
 .lt-about-img-fr {
   height: 100vh;
-  background-image: url(img/about-lt.jpg);
+  background-image: url(img/about-lt2.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -318,7 +318,7 @@ h6 {
 /* line 306, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-artists {
   overflow-y: hidden;
-  min-height: 820px; 
+  min-height: 820px;
 }
 /* line 312, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-profile {
@@ -327,7 +327,7 @@ h6 {
 /* line 318, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-works-title {
   background-color: black;
-  background-image: url(img/DSC5447.jpg);
+  background-image: url(img/DSC54472.jpg);
   background-size: cover;
   height: 100vh;
   width: 100%; }
@@ -369,7 +369,7 @@ h6 {
   /* line 361, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
     padding: 40px 57px 150px 57px;
-    text-align: right; 
+    text-align: right;
     max-width: 900px;}
     /* line 364, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
     .lt-work .work-sum h1 {
@@ -474,7 +474,7 @@ h6 {
     margin-bottom: 200px; }*/
   /* line 472, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-works {
-    height: 750px; } 
+    height: 750px; }
 
 @media screen and (max-width: 1000px) {
   /* line 478, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -513,21 +513,21 @@ h6 {
   /* line 511, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .subtitle {
     font-size: 1em !important;
-    margin-top: 20px; 
+    margin-top: 20px;
     display: inline-block;
     vertical-align: top;
     margin-left: 10px;
     line-height: 1.3em;}
   /* line 515, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .contact-links {
-    margin: 0; }
+    margin: 40px; }
   /* line 518, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-upcoming {
     margin: 30px 3px; }
   /* line 521, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-contact {
     margin-top: 400px;
-    height: 300px; } 
+    height: 300px; }
 
   .lt-contact-text {
     margin-top: 80px;
@@ -573,10 +573,12 @@ h6 {
      }*/
   /* line 555, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
-    padding: 50px 20px; } 
+    padding: 50px 20px; }
 
 @media screen and (max-width: 700px) {
   /* line 561, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
+  .lt-works-title .works-title-h1 {
+      font-size: 5em!important; }
   .lt-lander-img {
     display: inline-block;
     height: 50vh;
@@ -584,7 +586,7 @@ h6 {
   /* line 566, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-about-text {
     padding: 20px;
-    background-color: white; }
+    background-color: #eee; }
   /* line 571, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .nav-bar h3 {
     font-size: 1em;
@@ -602,9 +604,8 @@ h6 {
   /* line 586, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-contact {
     margin-top: 400px;
-    height: 300px; } 
+    height: 300px; }
 
   .news-item {
     margin-bottom: 30px;
   }
-
