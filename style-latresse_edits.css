@@ -244,7 +244,7 @@ h6 {
 
 .lt-about-img-fr {
   height: 100vh;
-  background-image: url(img/about-lt.jpg);
+  background-image: url(img/about-lt2.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -522,7 +522,7 @@ h6 {
     line-height: 1.3em;}
   /* line 515, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .contact-links {
-    margin: 0; }
+    margin: 40px; }
   /* line 518, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-upcoming {
     margin: 30px 3px; }
@@ -579,6 +579,8 @@ h6 {
 
 @media screen and (max-width: 700px) {
   /* line 561, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
+  .lt-works-title .works-title-h1 {
+      font-size: 5em!important; }
   .lt-lander-img {
     display: inline-block;
     height: 50vh;
@@ -586,7 +588,7 @@ h6 {
   /* line 566, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-about-text {
     padding: 20px;
-    background-color: white; }
+    background-color: #eee; }
   /* line 571, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .nav-bar h3 {
     font-size: 1em;

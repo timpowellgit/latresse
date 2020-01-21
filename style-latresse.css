@@ -91,7 +91,6 @@ h6 {
       opacity: 0.5; }
 
 /* line 101, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-/* line 96,100,104,107,110 Rina, image resize */
 .walkabout-vid-thumbnail {
   background-image: url(img/walkabout-vid2.jpg); }
 
@@ -243,7 +242,7 @@ h6 {
 
 .lt-about-img-fr {
   height: 100vh;
-  background-image: url(img/about-lt.jpg);
+  background-image: url(img/about-lt2.jpg);
   background-position: center;
   background-size: cover; }
 
@@ -290,7 +289,7 @@ h6 {
     letter-spacing: 0.3em; }
 
 /* line 275, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
-/*.lt-lander {
+.lt-lander {
   height: 100vh !important; }
 
 /* line 281, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -521,13 +520,13 @@ h6 {
     line-height: 1.3em;}
   /* line 515, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .contact-links {
-    margin-top: 40px; }
+    margin: 40px; }
   /* line 518, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-upcoming {
     margin: 30px 3px; }
   /* line 521, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-contact {
-    margin-top: 200px;
+    margin-top: 400px;
     height: 300px; }
 
   .lt-contact-text {
@@ -578,13 +577,14 @@ h6 {
 
 @media screen and (max-width: 700px) {
   /* line 561, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
+  .lt-works-title .works-title-h1 {
+      font-size: 5em!important; }
   .lt-lander-img {
     display: inline-block;
     height: 50vh;
     width: auto; }
   /* line 566, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-about-text {
-    height: auto;
     padding: 20px;
     background-color: #eee; }
   /* line 571, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -603,10 +603,9 @@ h6 {
     line-height: 1.3em; }
   /* line 586, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-contact {
-    margin-top: 200px;
+    margin-top: 400px;
     height: 300px; }
+
   .news-item {
     margin-bottom: 30px;
   }
-  .lt-works-title .works-title-h1 {
-      font-size: 5em!important; }
