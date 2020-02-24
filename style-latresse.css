@@ -506,7 +506,7 @@ h6 {
 @media screen and (max-width: 1000px) {
   /* line 478, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   h1 {
-    font-size: 5em; }
+    font-size: 4em; }
   /* line 481, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   h2 {
     font-size: 4em; }
@@ -607,6 +607,9 @@ h6 {
 
 @media screen and (max-width: 700px) {
   /* line 561, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
+  .h1 {
+    font-size: : 4em;
+  }
   .lt-works-title .works-title-h1 {
       font-size: 5em!important; }
   .lt-lander-img {
