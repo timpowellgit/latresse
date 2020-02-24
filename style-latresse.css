@@ -428,6 +428,32 @@ h6 {
   margin-top: 150px;
   font-size: 0.8em; }
 
+
+
+.partners-color {
+  background-color: #eee; 
+}
+
+.partners-title {
+  margin-top:200px;
+  padding-top:50px;
+}
+
+.partners-div {
+  width: 50%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.partners-img {
+  height:auto;
+  width:100%;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 /* line 426, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
 .lt-contact-link {
   display: inline-block;
