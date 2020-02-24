@@ -431,7 +431,7 @@ h6 {
 
 
 .partners-color {
-  background-color: #eee; 
+  background-color: #eee;
 }
 
 .partners-title {
@@ -452,6 +452,7 @@ h6 {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 
 
 /* line 426, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
@@ -600,6 +601,9 @@ h6 {
   /* line 555, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
   .lt-work .work-sum {
     padding: 50px 20px; }
+
+  .partners-div {
+    width: 80%;}
 
 @media screen and (max-width: 700px) {
   /* line 561, /Users/Jake/Web Dev/la tresse :  feb 12/style-latresse.scss */
